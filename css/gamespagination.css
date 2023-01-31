@@ -1,0 +1,86 @@
+.gamespagination{
+    display: flex;
+    flex-direction:column;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.logogame{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.nextPreviousDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.paginationP{
+    color: white;
+}
+
+.firstPage, .previous, .next, .lastPage{
+    margin-right: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #a13075;
+}
+
+.gameTitleSpan:hover{
+    text-decoration:underline;
+}
+
+.gameTitleSpan {
+    background-color: #edcce2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.gameTitleH2{
+    display: flex;
+    justify-content: center;
+}
+
+div.newVideogameDiv {
+    display: flex;
+    justify-content: center;
+}
+
+div.newVideogameDiv p {
+    margin: 10px;
+}
+
+p.newVideogameP {
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    padding: 8px;
+}
+
+.newGamePhoto:hover{
+    box-shadow: 5px 10px 15px #a13075;
+    transform: scale(1.1);
+}
+
+#previousInitial{
+    position: relative;
+    left: -80px;
+}
+
+#nextLast{
+    position: relative;
+    right: -86px;
+}

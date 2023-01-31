@@ -1,0 +1,26 @@
+.platforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imgplatforms{
+    margin: 20px;
+}
+
+.namesplatforms{
+    display: flex;
+    justify-content: center;
+}
+
+.translate200{
+    border: red 10px;
+}

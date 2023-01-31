@@ -1,0 +1,16 @@
+.platformsStyle{
+    font-style: italic;
+    cursor:pointer;
+}
+
+div.edition{
+    width: 50%;
+    /* border-radius: 20% 0%; */
+    padding: 2%;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.purchase {
+    position: absolute;
+}

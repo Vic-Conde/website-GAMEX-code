@@ -1,0 +1,122 @@
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    display: flex;
+}
+
+.subwrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #808080bf;
+}
+
+
+.hiddenD {
+    display: none !important;
+} 
+.hiddenV {
+    visibility: hidden;
+}
+
+.width100 {
+    width: 100%;
+    display:flex;
+}
+
+.width50{
+    width: 50%;
+}
+
+.width35{
+    width: 35%;
+}
+
+.width20{
+    width: 20%;
+}
+
+.width5{
+    width: 5%;
+}
+
+.radius10{
+    border-radius: 10px;
+}
+
+.radius15{
+    border-radius: 15px;
+}
+
+.photoGame{
+    display:flex;
+    width: 100%;
+
+}
+
+a:link {
+    color: #211a2e;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color:#211a2e;
+}
+
+.nameUser, .logout{
+    color: black;
+}
+
+.nameNick{
+    color: purple;
+    font-weight: bold;
+}
+
+.menu{
+    display:flex;
+}
+
+#header{
+    flex: 0.5;
+    flex-direction: row;
+    display: flex;
+    background-color: #f7f3f3;
+}
+
+#main {
+    flex: 3;
+}
+
+#footer {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c2346;
+    color: white;
+}
+
+.userActive {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex: 0.5;
+}

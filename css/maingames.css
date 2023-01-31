@@ -1,0 +1,34 @@
+.logo-game-initial{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#h1-newGame{
+    display: flex;
+    justify-content: center;
+}
+
+#h1-AllAgeGames{
+    display: flex;
+    justify-content: center;
+}
+
+div h1{
+    background-color: #5c2346;
+    color: #fff;
+    border: groove rgb(105, 105, 105);
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.newGame-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

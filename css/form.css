@@ -1,0 +1,28 @@
+.login {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: #00000094;
+}
+
+form[name="login" ] {
+    background: purple;
+    padding: 60px;
+    border-radius: 20% 0%;
+}
+
+form[name="login" ] input {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+div.login h2 {
+    margin: 0px;
+    padding: 20px 0px;
+}
